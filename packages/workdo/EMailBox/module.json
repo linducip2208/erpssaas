@@ -1,0 +1,10 @@
+{
+    "name": "EMailBox",
+    "alias": "Email Box",
+    "description": "IMAP mailbox integration, send/receive emails, manage inbox",
+    "priority": 230,
+    "version": 1.0,
+    "monthly_price": 24,
+    "yearly_price": 240,
+    "package_name": "emailbox"
+}

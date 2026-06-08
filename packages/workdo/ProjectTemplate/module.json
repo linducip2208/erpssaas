@@ -1,0 +1,10 @@
+{
+    "name": "ProjectTemplate",
+    "alias": "Project Template",
+    "description": "",
+    "priority": 175,
+    "version": 5.0,
+    "monthly_price": 14,
+    "yearly_price": 140,
+    "package_name": "projecttemplate"
+}

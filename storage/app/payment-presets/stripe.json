@@ -1,0 +1,10 @@
+{
+  "name": "stripe",
+  "display_name": "Stripe",
+  "format": "stripe",
+  "description": "Stripe is a global payment processor supporting credit/debit cards, digital wallets, and 135+ currencies.",
+  "base_url": "https://api.stripe.com",
+  "supported_currencies": ["USD", "EUR", "GBP", "SGD", "MYR", "IDR", "THB", "VND", "PHP"],
+  "logo": "/marketing/gateways/stripe.svg",
+  "sort_order": 1
+}

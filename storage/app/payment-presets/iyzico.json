@@ -1,0 +1,20 @@
+{
+  "name": "iyzico",
+  "display_name": "iyzico",
+  "format": "rest_api",
+  "description": "iyzico is Turkey's leading payment gateway supporting credit/debit cards, bank transfers, and digital wallets for the Turkish market.",
+  "base_url": "https://api.iyzipay.com",
+  "supported_currencies": ["TRY", "USD", "EUR"],
+  "extra_config": {
+    "auth_type": "header_key",
+    "api_key_header": "Authorization",
+    "api_secret_header": "x-iyzi-rnd",
+    "create_endpoint": "/payment/checkoutform/initialize",
+    "verify_endpoint": "/payment/detail",
+    "id_field": "conversationId",
+    "amount_field": "paidPrice",
+    "success_statuses": "success"
+  },
+  "logo": "/marketing/gateways/iyzico.svg",
+  "sort_order": 16
+}

@@ -1,0 +1,25 @@
+{
+    "name": "workdo/api",
+    "description": "REST API add-on for ERPGo SaaS",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\API\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\API\\Providers\\APIServiceProvider"
+            ]
+        }
+    }
+}

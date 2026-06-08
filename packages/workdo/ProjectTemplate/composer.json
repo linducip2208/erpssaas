@@ -1,0 +1,25 @@
+{
+    "name": "workdo/projecttemplate",
+    "description": "Project Template with reusable templates for ERPGo SaaS",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\ProjectTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\ProjectTemplate\\Providers\\ProjectTemplateServiceProvider"
+            ]
+        }
+    }
+}

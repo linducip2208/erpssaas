@@ -1,0 +1,18 @@
+{
+  "name": "razorpay",
+  "display_name": "Razorpay",
+  "format": "rest_api",
+  "description": "Razorpay is India's leading payment gateway supporting cards, UPI, netbanking, wallets, and EMI.",
+  "base_url": "https://api.razorpay.com",
+  "supported_currencies": ["INR"],
+  "extra_config": {
+    "auth_type": "basic",
+    "create_endpoint": "/v1/orders",
+    "verify_endpoint": "/v1/orders/",
+    "id_field": "receipt",
+    "amount_field": "amount",
+    "success_statuses": "paid"
+  },
+  "logo": "/marketing/gateways/razorpay.svg",
+  "sort_order": 5
+}

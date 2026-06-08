@@ -1,0 +1,18 @@
+{
+  "name": "paystack",
+  "display_name": "Paystack",
+  "format": "rest_api",
+  "description": "Paystack is Africa's leading payment gateway supporting cards, bank transfers, USSD, and mobile money across Nigeria, Ghana, Kenya, and South Africa.",
+  "base_url": "https://api.paystack.co",
+  "supported_currencies": ["NGN", "GHS", "KES", "ZAR", "USD"],
+  "extra_config": {
+    "auth_type": "bearer",
+    "create_endpoint": "/transaction/initialize",
+    "verify_endpoint": "/transaction/verify/",
+    "id_field": "reference",
+    "amount_field": "amount",
+    "success_statuses": "success"
+  },
+  "logo": "/marketing/gateways/paystack.svg",
+  "sort_order": 6
+}

@@ -1,0 +1,20 @@
+{
+  "name": "phonepe",
+  "display_name": "PhonePe",
+  "format": "rest_api",
+  "description": "PhonePe is India's leading UPI-based payment gateway with 500+ million users, supporting UPI, cards, wallets, and netbanking.",
+  "base_url": "https://api.phonepe.com",
+  "supported_currencies": ["INR"],
+  "extra_config": {
+    "auth_type": "header_key",
+    "api_key_header": "X-VERIFY",
+    "api_secret_header": "X-MERCHANT-ID",
+    "create_endpoint": "/apis/hermes/pg/v1/pay",
+    "verify_endpoint": "/apis/hermes/pg/v1/status/",
+    "id_field": "merchantTransactionId",
+    "amount_field": "amount",
+    "success_statuses": "PAYMENT_SUCCESS"
+  },
+  "logo": "/marketing/gateways/phonepe.svg",
+  "sort_order": 15
+}

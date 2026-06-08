@@ -1,0 +1,25 @@
+{
+    "name": "workdo/workflow",
+    "description": "Workflow automation package for ERPGo",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\Workflow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\Workflow\\Providers\\WorkflowServiceProvider"
+            ]
+        }
+    }
+}

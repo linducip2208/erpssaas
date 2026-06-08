@@ -1,0 +1,25 @@
+{
+    "name": "workdo/whatsapp",
+    "description": "WhatsApp API integration package for ERPGo",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\WhatsApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\WhatsApp\\Providers\\WhatsAppServiceProvider"
+            ]
+        }
+    }
+}

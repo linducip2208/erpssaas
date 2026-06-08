@@ -1,0 +1,10 @@
+{
+  "name": "paypal",
+  "display_name": "PayPal",
+  "format": "paypal",
+  "description": "PayPal is a global digital payment platform with 400+ million active users across 200+ markets.",
+  "base_url": "https://api-m.paypal.com",
+  "supported_currencies": ["USD", "EUR", "GBP", "AUD", "SGD", "MYR", "PHP", "THB"],
+  "logo": "/marketing/gateways/paypal.svg",
+  "sort_order": 2
+}

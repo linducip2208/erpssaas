@@ -1,0 +1,25 @@
+{
+    "name": "workdo/side-menu-builder",
+    "description": "Side Menu Builder add-on for ERPGo SaaS",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\SideMenuBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\SideMenuBuilder\\Providers\\SideMenuBuilderServiceProvider"
+            ]
+        }
+    }
+}

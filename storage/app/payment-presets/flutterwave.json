@@ -1,0 +1,18 @@
+{
+  "name": "flutterwave",
+  "display_name": "Flutterwave",
+  "format": "rest_api",
+  "description": "Flutterwave is a pan-African payment gateway supporting 150+ currencies and multiple payment methods across 34 African countries.",
+  "base_url": "https://api.flutterwave.com",
+  "supported_currencies": ["NGN", "GHS", "KES", "ZAR", "UGX", "TZS", "RWF", "USD", "EUR", "GBP"],
+  "extra_config": {
+    "auth_type": "bearer",
+    "create_endpoint": "/v3/payments",
+    "verify_endpoint": "/v3/transactions/",
+    "id_field": "tx_ref",
+    "amount_field": "amount",
+    "success_statuses": "successful"
+  },
+  "logo": "/marketing/gateways/flutterwave.svg",
+  "sort_order": 7
+}

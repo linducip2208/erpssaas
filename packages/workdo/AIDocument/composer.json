@@ -1,0 +1,25 @@
+{
+    "name": "workdo/aidocument",
+    "description": "AI Document generation with BYOK provider support for ERPGo SaaS",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\AIDocument\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\AIDocument\\Providers\\AIDocumentServiceProvider"
+            ]
+        }
+    }
+}

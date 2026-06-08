@@ -1,0 +1,18 @@
+{
+  "name": "paymongo",
+  "display_name": "PayMongo",
+  "format": "rest_api",
+  "description": "PayMongo is the Philippines' leading payment gateway supporting GCash, Maya, GrabPay, credit/debit cards, and BPI online.",
+  "base_url": "https://api.paymongo.com",
+  "supported_currencies": ["PHP"],
+  "extra_config": {
+    "auth_type": "basic",
+    "create_endpoint": "/v1/links",
+    "verify_endpoint": "/v1/links/",
+    "id_field": "reference_number",
+    "amount_field": "amount",
+    "success_statuses": "paid"
+  },
+  "logo": "/marketing/gateways/paymongo.svg",
+  "sort_order": 9
+}

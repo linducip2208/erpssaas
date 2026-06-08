@@ -1,0 +1,18 @@
+{
+  "name": "xendit",
+  "display_name": "Xendit",
+  "format": "rest_api",
+  "description": "Xendit is a leading payment gateway in Indonesia and Philippines supporting bank transfers, e-wallets, cards, and retail outlets.",
+  "base_url": "https://api.xendit.co",
+  "supported_currencies": ["IDR", "PHP"],
+  "extra_config": {
+    "auth_type": "basic",
+    "create_endpoint": "/v2/invoices",
+    "verify_endpoint": "/v2/invoices/",
+    "id_field": "external_id",
+    "amount_field": "amount",
+    "success_statuses": "PAID,SETTLED"
+  },
+  "logo": "/marketing/gateways/xendit.svg",
+  "sort_order": 4
+}

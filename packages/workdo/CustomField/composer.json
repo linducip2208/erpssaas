@@ -1,0 +1,25 @@
+{
+    "name": "workdo/custom-field",
+    "description": "Custom Field add-on for ERPGo SaaS",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\CustomField\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\CustomField\\Providers\\CustomFieldServiceProvider"
+            ]
+        }
+    }
+}

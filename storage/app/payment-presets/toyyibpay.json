@@ -1,0 +1,15 @@
+{
+  "name": "toyyibpay",
+  "display_name": "ToyyibPay",
+  "format": "redirect",
+  "description": "ToyyibPay is Malaysia's popular payment gateway supporting FPX online banking, credit/debit cards, e-wallets, and bank transfers.",
+  "base_url": "https://toyyibpay.com",
+  "supported_currencies": ["MYR"],
+  "extra_config": {
+    "create_endpoint": "/index.php/api/createBill",
+    "status_endpoint": "/index.php/api/getBillTransactions",
+    "success_statuses": "1"
+  },
+  "logo": "/marketing/gateways/toyyibpay.svg",
+  "sort_order": 10
+}

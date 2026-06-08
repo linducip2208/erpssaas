@@ -1,0 +1,10 @@
+{
+    "name": "SideMenuBuilder",
+    "alias": "Side Menu Builder",
+    "description": "",
+    "priority": 255,
+    "version": 5.0,
+    "monthly_price": 19,
+    "yearly_price": 190,
+    "package_name": "sidemenubuilder"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "tripay",
+  "display_name": "Tripay",
+  "format": "redirect",
+  "description": "Tripay is an Indonesian payment gateway aggregating bank transfers, e-wallets (OVO, Dana, GoPay, ShopeePay), convenience stores, and QRIS.",
+  "base_url": "https://tripay.co.id",
+  "supported_currencies": ["IDR"],
+  "extra_config": {
+    "create_endpoint": "/api/transaction/create",
+    "status_endpoint": "/api/transaction/detail/",
+    "success_statuses": "PAID"
+  },
+  "logo": "/marketing/gateways/tripay.svg",
+  "sort_order": 14
+}

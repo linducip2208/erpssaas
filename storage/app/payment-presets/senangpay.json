@@ -1,0 +1,15 @@
+{
+  "name": "senangpay",
+  "display_name": "SenangPay",
+  "format": "redirect",
+  "description": "SenangPay is a Malaysian payment gateway supporting FPX online banking, credit/debit cards, e-wallets, and bank transfer.",
+  "base_url": "https://app.senangpay.my",
+  "supported_currencies": ["MYR"],
+  "extra_config": {
+    "create_endpoint": "/payment/{merchant_id}",
+    "status_endpoint": "/api/payment/{merchant_id}/status/",
+    "success_statuses": "success,paid"
+  },
+  "logo": "/marketing/gateways/senangpay.svg",
+  "sort_order": 12
+}

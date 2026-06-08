@@ -1,0 +1,10 @@
+{
+    "name": "CustomField",
+    "alias": "Custom Field",
+    "description": "",
+    "priority": 240,
+    "version": 5.0,
+    "monthly_price": 19,
+    "yearly_price": 190,
+    "package_name": "customfield"
+}

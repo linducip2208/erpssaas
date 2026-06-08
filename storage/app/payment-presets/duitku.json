@@ -1,0 +1,20 @@
+{
+  "name": "duitku",
+  "display_name": "Duitku",
+  "format": "rest_api",
+  "description": "Duitku is an Indonesian payment gateway supporting bank transfers, e-wallets (OVO, Dana, LinkAja), convenience stores, and QRIS.",
+  "base_url": "https://api-prod.duitku.com",
+  "supported_currencies": ["IDR"],
+  "extra_config": {
+    "auth_type": "header_key",
+    "api_key_header": "x-duitku-merchant-code",
+    "api_secret_header": "x-duitku-api-key",
+    "create_endpoint": "/api/v1/transaction",
+    "verify_endpoint": "/api/v1/transaction/check/",
+    "id_field": "merchantOrderId",
+    "amount_field": "paymentAmount",
+    "success_statuses": "00"
+  },
+  "logo": "/marketing/gateways/duitku.svg",
+  "sort_order": 13
+}

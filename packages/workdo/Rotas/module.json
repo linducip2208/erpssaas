@@ -1,0 +1,10 @@
+{
+    "name": "Rotas",
+    "alias": "Rotas",
+    "description": "",
+    "priority": 195,
+    "version": 5.0,
+    "monthly_price": 14,
+    "yearly_price": 140,
+    "package_name": "rotas"
+}

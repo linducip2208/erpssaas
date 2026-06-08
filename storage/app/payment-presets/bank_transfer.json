@@ -1,0 +1,15 @@
+{
+  "name": "bank_transfer",
+  "display_name": "Bank Transfer (Manual)",
+  "format": "bank_transfer",
+  "description": "Manual bank transfer with payment proof upload and admin approval. Free, no API keys needed.",
+  "supported_currencies": ["USD", "EUR", "IDR", "MYR", "SGD", "INR", "PHP"],
+  "extra_config": {
+    "instructions": "<p>Please transfer the exact amount to one of the following bank accounts, then upload your payment receipt.</p><p>Your plan will be activated within 1-24 hours after verification.</p>",
+    "bank_name": "",
+    "account_number": "",
+    "account_holder": ""
+  },
+  "logo": "/marketing/gateways/bank-transfer.svg",
+  "sort_order": 99
+}

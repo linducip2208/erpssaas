@@ -1,0 +1,25 @@
+{
+    "name": "workdo/emailbox",
+    "description": "Email Box IMAP integration package for ERPGo",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\EMailBox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\EMailBox\\Providers\\EMailBoxServiceProvider"
+            ]
+        }
+    }
+}

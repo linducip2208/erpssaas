@@ -1,0 +1,10 @@
+{
+    "name": "AIDocument",
+    "alias": "AI Document",
+    "description": "",
+    "priority": 235,
+    "version": 5.0,
+    "monthly_price": 24,
+    "yearly_price": 240,
+    "package_name": "aidocument"
+}

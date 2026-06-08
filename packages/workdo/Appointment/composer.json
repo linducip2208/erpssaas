@@ -1,0 +1,25 @@
+{
+    "name": "workdo/appointment",
+    "description": "Appointment add-on for ERPGo SaaS",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Workdo\\Appointment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WorkDo",
+            "email": "support@workdo.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workdo\\Appointment\\Providers\\AppointmentServiceProvider"
+            ]
+        }
+    }
+}

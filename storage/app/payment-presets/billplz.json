@@ -1,0 +1,18 @@
+{
+  "name": "billplz",
+  "display_name": "Billplz",
+  "format": "rest_api",
+  "description": "Billplz is a Malaysian payment gateway supporting FPX, credit/debit cards, e-wallets (Boost, GrabPay, Touch 'n Go), and bank transfers.",
+  "base_url": "https://www.billplz.com",
+  "supported_currencies": ["MYR"],
+  "extra_config": {
+    "auth_type": "basic",
+    "create_endpoint": "/api/v3/bills",
+    "verify_endpoint": "/api/v3/bills/",
+    "id_field": "reference_1",
+    "amount_field": "amount",
+    "success_statuses": "paid"
+  },
+  "logo": "/marketing/gateways/billplz.svg",
+  "sort_order": 11
+}

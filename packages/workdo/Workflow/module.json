@@ -1,0 +1,10 @@
+{
+    "name": "Workflow",
+    "alias": "Workflow Automation",
+    "description": "Visual workflow builder with triggers and actions for business process automation",
+    "priority": 225,
+    "version": 1.0,
+    "monthly_price": 34,
+    "yearly_price": 340,
+    "package_name": "workflow"
+}

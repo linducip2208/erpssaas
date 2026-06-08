@@ -1,0 +1,18 @@
+{
+  "name": "mollie",
+  "display_name": "Mollie",
+  "format": "rest_api",
+  "description": "Mollie is a European payment gateway supporting iDEAL, Bancontact, SOFORT, SEPA, credit cards, PayPal, and more.",
+  "base_url": "https://api.mollie.com",
+  "supported_currencies": ["EUR", "GBP", "USD"],
+  "extra_config": {
+    "auth_type": "bearer",
+    "create_endpoint": "/v2/payments",
+    "verify_endpoint": "/v2/payments/",
+    "id_field": "description",
+    "amount_field": "amount.value",
+    "success_statuses": "paid"
+  },
+  "logo": "/marketing/gateways/mollie.svg",
+  "sort_order": 8
+}

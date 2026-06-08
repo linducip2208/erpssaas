@@ -1,0 +1,16 @@
+{
+  "name": "midtrans",
+  "display_name": "Midtrans",
+  "format": "redirect",
+  "description": "Midtrans is Indonesia's leading payment gateway supporting bank transfer, credit card, e-wallet, and convenience store payments.",
+  "base_url": "https://app.midtrans.com",
+  "supported_currencies": ["IDR"],
+  "extra_config": {
+    "create_endpoint": "/snap/v1/transactions",
+    "status_endpoint": "/v2/{id}/status",
+    "success_statuses": "settlement,capture",
+    "signature_key": ""
+  },
+  "logo": "/marketing/gateways/midtrans.svg",
+  "sort_order": 3
+}
