@@ -162,9 +162,9 @@ class PermissionRoleSeeder extends Seeder
             ['name' => 'manage-languages', 'module' => 'languages', 'label' => 'Manage Languages'],
             ['name' => 'edit-languages', 'module' => 'languages', 'label' => 'Edit Languages'],
 
-            //  // Add-on management
-            //  ['name' => 'manage-add-on', 'module' => 'add-on', 'label' => 'Manage Add-on'],
-            //  ['name' => 'manage-actions', 'module' => 'add-on', 'label' => 'Manage Actions'],
+            // Add-on management
+            ['name' => 'manage-add-on', 'module' => 'add-on', 'label' => 'Manage Add-on'],
+            ['name' => 'manage-actions', 'module' => 'add-on', 'label' => 'Manage Actions'],
 
             // Plan management
             ['name' => 'manage-plans', 'module' => 'plans', 'label' => 'Manage Plans'],
