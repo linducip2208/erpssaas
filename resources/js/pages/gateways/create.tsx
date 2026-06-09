@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { useState } from 'react';
 import { Head, router } from '@inertiajs/react';
 import { useTranslation } from 'react-i18next';
 import AuthenticatedLayout from '@/layouts/authenticated-layout';
@@ -82,7 +81,7 @@ export default function GatewayForm({ gateway, formats = [], configKeys = null, 
 
   return (
     <AuthenticatedLayout
-      breadcrumbs={[{ label: t('Payment Gateways'), href: '/gateways' }, { label: isEdit ? t('Edit Gateway') : t('Add Gateway') }]}
+      breadcrumbs={[{ label: t('Payment Gateways'), url: '/gateways' }, { label: isEdit ? t('Edit Gateway') : t('Add Gateway') }]}
       pageTitle={isEdit ? t('Edit Gateway') : t('Add Gateway')}
     >
       <Head title={isEdit ? t('Edit Gateway') : t('Add Gateway')} />

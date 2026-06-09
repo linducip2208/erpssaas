@@ -239,14 +239,14 @@ export const getCompanyMenu = (t: (key: string) => string): NavItem[] => [
     {
         title: t('Customization'),
         icon: Puzzle,
-        permission: null,
+        permission: undefined,
         name: 'customization',
         order: 200,
     },
     {
         title: t('Integration'),
         icon: Plug,
-        permission: null,
+        permission: undefined,
         name: 'integration',
         order: 210,
     },

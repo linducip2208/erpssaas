@@ -42,6 +42,7 @@ interface Gateway {
     description: string;
     supported_currencies: string[];
     extra_config: Record<string, any>;
+    is_test_mode?: boolean;
 }
 
 interface Props {
