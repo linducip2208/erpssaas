@@ -25,8 +25,8 @@ class DatabaseSeeder extends Seeder
 
         if(config('app.run_demo_seeder'))
         {
-            // // Pass $userId to your custom seeder
-
+            // Pass $userId to your custom seeder
+            (new PackageSeeder())->run($userId);
 
             (new CouponSeeder())->run();
             (new DemoUserSeeder())->run();
@@ -42,9 +42,6 @@ class DatabaseSeeder extends Seeder
             (new DemoBankTransferSeeder())->run($userId);
             (new DemoCouponDetailsSeeder())->run($userId);
             (new MessengerSeeder())->run();
-
-             // temporary
-            // (new PackageSeeder())->run($userId);
 
             // in this seeder product
             (new DemoTransferSeeder())->run($userId);
